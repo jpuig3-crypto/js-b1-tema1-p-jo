@@ -67,8 +67,8 @@ let planets = [
         }
     ]
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
-
-
+const mapped = planets.map(planets.name, planets.diameter);
+console.log(mapped);
 
 /**
  * TEST
