@@ -16,8 +16,13 @@
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
+let rangeOfNumbers(4);
 
+for (let i = 0; i <= rangeOfNumbers; i++){
+	i += rangeOfNumbers;
+}
 
+console.log(rangeOfNumbers);
 
 /**
  * TEST
