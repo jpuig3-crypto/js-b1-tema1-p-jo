@@ -57,6 +57,21 @@ const classroomStudents = [
       repeater: false,
   }
 ];
+
+function totalApproved(classroomStudents) {
+  
+  function isApproved(student) {
+    return student.averageGrade >= 5;
+  }
+
+  let approved = 0;
+
+  for (let i = 0; i < classroomStudents.length; i++) {
+    approved++
+  }
+  
+}
+
 console.log(totalApproved(classroomStudents));
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
