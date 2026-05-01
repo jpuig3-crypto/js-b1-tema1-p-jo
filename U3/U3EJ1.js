@@ -18,6 +18,11 @@
   una altra funció (anomenada square) que rebi un valor com a paràmetre i el torni elevat al quadrat.
   Si és correcta la crida a la funció de l'exemple hypotenuse(3,4); hauria de tornar un valor de 5.
 */
+function square (anchura, altura){
+  return anchura + altura - 2;
+}
+
+let hypotenuse = square;
 
 //Do not modify this code:
 console.log(hypotenuse(3,4));
