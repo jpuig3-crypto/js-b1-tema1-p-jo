@@ -57,6 +57,22 @@ const classroomStudents = [
       repeater: false,
   }
 ];
+
+function currentAge(classroomStudents) {
+
+  function calculatedYears(student) {
+    return 2023 - student.yearOfBirth;
+  }
+
+  let ages = [];
+
+  for (let i = 0; i < classroomStudents.length; i++){
+    ages.push(calculatedYears(classroomStudents[i]));
+  }
+
+  return ages;
+}
+
 console.log(currentAge(classroomStudents));
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
