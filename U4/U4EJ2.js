@@ -28,6 +28,23 @@
   restarem 1 i per als parells en restarem 0).
   Per exemple: la crida a la funció evenNumbers(4,7,21,3); ens hauria de tornar [4,6,20,2]
 */
+
+function evenNumbers (...numbers) {
+  let remainders = [...numbers];
+
+  for (let i = 0; i < remainders.length; i++) {
+    remainders[i] = remainders[i] % 2;
+  }
+
+  let result = [];
+
+  for (let i = 0; i < remainders.length; i++) {
+    result.push(numbers[i] - remainders[i]);
+  }
+
+  return result;
+}
+
 console.log(evenNumbers(4,7,21,3)); //This will return [4,6,20,2]
 
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
