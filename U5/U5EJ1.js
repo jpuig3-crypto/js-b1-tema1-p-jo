@@ -59,6 +59,13 @@ const classroomStudents = [
   }
 ];
  
+const result = classroomStudents.map(student =>
+  student.averageGrade >= 9 ? "A" :
+  student.averageGrade >= 7 ? "B" :
+  student.averageGrade >= 5 ? "C" : "D"
+);
+
+console.log(result);
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
 
